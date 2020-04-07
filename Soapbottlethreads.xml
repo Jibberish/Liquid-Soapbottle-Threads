@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Threads profile for Fusion 360.  See this link on where to put them in you folder structure:
+  https://knowledge.autodesk.com/support/fusion-360/learn-explore/caas/sfdcarticles/sfdcarticles/Custom-Threads-in-Fusion-360.html
+  
+  These threads work, but are by no means technically correct.  Please suggest/implement the proper parameters if you know them.
+  
+  Thanks!
+ -->
+<ThreadType>
+<ThreadForm>0</ThreadForm>
+  <Name>Soap Bottle Threads M Profile</Name>
+  <CustomName>Soap Bottle Threads M Profile</CustomName>
+  <Unit>mm</Unit>
+  <Angle>45</Angle>
+  <SortOrder>1</SortOrder>
+  <ThreadSize>
+    <Size>25.0</Size>
+    <Designation>
+      <ThreadDesignation>Softsoap 7.5oz bottle</ThreadDesignation>
+      <CTD>Softsoap 7.5oz bottle</CTD>
+      <Pitch>4.5</Pitch>
+  	  <Thread>
+        <Gender>external</Gender>
+        <Class>6G</Class>
+        <MajorDia>27.0</MajorDia>
+        <PitchDia>27.0</PitchDia>
+        <MinorDia>25.0</MinorDia>
+      </Thread>
+      <Thread>
+        <Gender>internal</Gender>
+        <Class>6K</Class>
+        <MajorDia>28.25</MajorDia>
+        <PitchDia>28.0</PitchDia>
+        <MinorDia>26.0</MinorDia>
+        <TapDrill></TapDrill>
+      </Thread>
+    </Designation>
+</ThreadType>
